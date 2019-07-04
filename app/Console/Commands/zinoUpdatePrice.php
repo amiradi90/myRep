@@ -39,6 +39,6 @@ class zinoUpdatePrice extends Command
     public function handle()
     {
         HomeController::xmlConvert(1129);
-        echo '1129 updated';
+        return '1129 updated';
     }
 }
