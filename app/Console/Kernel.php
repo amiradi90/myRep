@@ -26,7 +26,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
          $schedule->command('command:zinoUpdatePrice')
-                  ->daily();
+                  ->twiceDaily(1,13);
 //        $schedule->call(function () {
 //            HomeController::xmlConvert(1129);
 //            DB::table('recent_users')->delete();
