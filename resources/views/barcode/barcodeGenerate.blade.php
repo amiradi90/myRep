@@ -379,9 +379,8 @@
         }
 
         function excelTemplate() {
-            $('#insBarcode,#rmv,#insPrice').remove();
-            fnExcelReport(event)
-            ک
+            // $('#insBarcode,#rmv,#insPrice').remove().finish();
+            fnExcelReport(event);
         }
 
         // function ClearVal(){
